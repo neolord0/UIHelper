@@ -3,7 +3,7 @@ load_dotenv()
 
 from langchain_ollama import ChatOllama
 
-llm = ChatOllama(model="gpt-4o")
+llm = ChatOllama(model="gpt-oss:20b")
 
 from typing_extensions import TypedDict
 from langchain_core.messages import AnyMessage
